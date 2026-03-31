@@ -12,7 +12,7 @@ function App() {
       {/* nav */}
 
       <div className=" bg-white">
-        <div className='navbar  shadow-sm rounded-4xl px-5 w-4/5 m-auto'>
+        <div className='navbar  shadow-sm rounded-4xl px-5 w-1/1 lg:w-9/10 m-auto'>
           <div className="navbar-start">
             <div className="dropdown">
               <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +30,7 @@ function App() {
                 <li><a>FAQ</a></li>
               </ul>
             </div>
-            <a className="btn btn-ghost font-bold text-blue-400 text-3xl">DigiTools</a>
+            <a className="btn btn-ghost font-bold text-blue-400 text-2xl md:text-3xl">DigiTools</a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
@@ -107,9 +107,9 @@ function App() {
           <h2 className='text-4xl lg:text-5xl font-bold pt-10 text-black'>Premium Digital Tools</h2>
           <p className='text-gray-500 py-6'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
         </div>
-        <div className="text-center border-black m-auto w-40  bg-white">
-          <button className='btn btn-primary'>Product</button>
-          <button className='btn bg-white text-blue-600'>Cart<samp ></samp></button>
+        <div className="text-center ">
+          <button className='btn rounded-4xl btn-primary mr-1.5'>Product</button>
+          <button className='btn rounded-4xl bg-white text-blue-600'>Cart<samp ></samp></button>
 
         </div>
       </div>
@@ -119,10 +119,10 @@ function App() {
 
       {/* card */}
 
-      <div>
-        <div className='bg-white text-black'>
-          <div className="card w-96 shadow-sm bg">
-            <div className="card-body">
+      <div className=' bg-purple-50 p-10 text-black'>
+        <div className=' gap-3   w-95 md:w-193 xl:w-291 m-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
+          <div className="card w-95 bg-purple-200 shadow-sm bg  ">
+            <div className="card-body ">
 
               <div className="flex justify-between">
                 <img src="./src/assets/rocket.png" alt="" />
@@ -159,11 +159,14 @@ function App() {
                   <span className="line-through">Real-time collaboration tools</span>
                 </li>
               </ul>
-              <div className="mt-6">
-                <button className="btn btn-primary btn-block w-60 m-auto rounded-4xl">Buy Now</button>
+              <div className="mt-6 w-9/10 m-auto">
+                <button className="btn btn-primary btn-block rounded-4xl">Buy Now</button>
               </div>
             </div>
+            
           </div>
+          <div className="border-4 w-95">fi</div>
+            <div className='border-4 w-95'>hi</div>
         </div>
       </div>
 
@@ -226,7 +229,7 @@ function App() {
 
         </div>
 
-        <div className=' gap-3 grid grid-cols-1 lg:grid-cols-3 w-66 lg:w-200 m-auto'>
+        <div className=' gap-3 grid grid-cols-1 md:grid-cols-3 w-66 md:w-200 m-auto'>
           {/* 1 */}
           <div>
             <div className='bg-white text-black'>
@@ -365,32 +368,32 @@ function App() {
 
       <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
         <div >
-        <div className="text-center ">
-          <h2 className='text-4xl lg:text-5xl font-bold text-white'>Premium Digital Tools</h2>
-          <p className='text-gray-500 py-6'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
+          <div className="text-center ">
+            <h2 className='text-4xl lg:text-5xl font-bold text-white'>Premium Digital Tools</h2>
+            <p className='text-gray-500 py-6'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
+          </div>
+
         </div>
-        
-      </div>
 
         <nav>
-          <h6 className="footer-title text-2xl">Product</h6>
+          <h6 className=" text-white text-xl">Product</h6>
           <a className="link link-hover">Features</a>
           <a className="link link-hover">Pricing</a>
           <a className="link link-hover">Templates</a>
           <a className="link link-hover">Integrations</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Company</h6>
+          <h6 className="text-white text-xl">Company</h6>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <a className="link link-hover">Careers</a>
+          <a className="link link-hover">Press</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <h6 className="text-white text-xl">Resources</h6>
+          <a className="link link-hover">Help Center</a>
+          <a className="link link-hover">Community</a>
+          <a className="link link-hover">Documentation</a>
         </nav>
 
         <nav className="md:place-self-center md:justify-self-end">
@@ -434,9 +437,9 @@ function App() {
       </footer>
       <footer className="footer bg-base-200  text-base-content border-base-300 border-t px-10 py-10">
         <aside className="w-10/10 flex justify-between ">
-         
+
           <p>
-           © 2026 Digitools. All rights reserved.
+            © 2026 Digitools. All rights reserved.
           </p>
           <ul className='flex gap-4 '>
             <li>Privacy Policy</li>
@@ -446,6 +449,66 @@ function App() {
         </aside>
 
       </footer>
+
+
+
+
+
+      {/* *card titel */}
+
+      <div className="bg-white  h-70">
+        <div className="text-center ">
+          <h2 className='text-4xl lg:text-5xl font-bold pt-10 text-black'>Premium Digital Tools</h2>
+          <p className='text-gray-500 py-6'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
+        </div>
+        <div className="text-center ">
+          <button className='btn mx-1 rounded-4xl btn-primary'>Product</button>
+          <button className='btn rounded-4xl bg-white text-blue-600'>Cart(0)<samp ></samp></button>
+
+        </div>
+      </div>
+
+
+
+
+      {/* card */}
+
+      <div>
+        <div className='bg-white text-black pb-10'>
+          
+            <div className="card-body w-4/5 m-auto shadow-2xl rounded-2xl bg-gray-50">
+              <div className="">
+                <h2 className="text-3xl font-bold">Your Cart</h2>
+              </div>
+              <div className="">
+                <div className="flex justify-between items-center bg-gray-200 rounded-xl p-2">
+                  <div className="flex gap-1">
+                  <img className='w-10 h-10' src="./src/assets/user.png" alt="" />
+                  <div className="">
+                    <h4 className='text-xl'>al pro</h4>
+                    <samp>$34</samp>
+                  </div>
+                  </div>
+                  <div className="">
+                    <button className='btn btn-error'>remove</button>
+                  </div>
+
+                </div>
+              </div>
+              <div className="flex justify-between bg-amber-50 px-5 rounded-2xl">
+                <p>Total</p>
+                <samp className='text-xl'>$34</samp>
+              </div>
+
+
+              <div className="mt-6">
+                <button className="btn btn-primary btn-block m-auto rounded-4xl">Buy Now</button>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+
 
     </>
   )
