@@ -1,0 +1,134 @@
+ [
+    {
+      "id": 1,
+      "name": "Starter Resume Builder",
+      "description": "Create simple and professional resumes بسهولة.",
+      "price": 0,
+      "period": "one-time",
+      "tag": "new",
+      "tagType": "new",
+      "img":"./src/assets/products/design-tool.png",
+      "features": ["Basic templates", "Download PDF", "Easy editor"]
+    },
+    {
+      "id": 2,
+      "name": "Pro Resume Builder",
+      "description": "Advanced resume builder with ATS optimization.",
+      "price": 9.99,
+      "period": "monthly",
+      "tag": "popular",
+      "tagType": "popular",
+      "img":"./src/assets/products/operation.png",
+      "features": ["100+ templates", "ATS optimization", "Export to PDF"]
+    },
+    {
+      "id": 3,
+      "name": "Portfolio Website Kit",
+      "description": "Build your personal portfolio website quickly.",
+      "price": 29,
+      "period": "one-time",
+      "tag": "best seller",
+      "tagType": "best seller",
+      "img":"./src/assets/user.png",
+      "features": ["Custom domain support", "Responsive design", "SEO tools"]
+    },
+    {
+      "id": 4,
+      "name": "Job Tracker Pro",
+      "description": "Track your job applications and interviews.",
+      "price": 4.99,
+      "period": "monthly",
+      "tag": "popular",
+      "tagType": "popular",
+      "img":"./src/assets/products/social-media.png",
+      "features": ["Application tracking", "Interview reminders", "Analytics dashboard"]
+    },
+    {
+      "id": 5,
+      "name": "Cover Letter Generator",
+      "description": "Generate professional cover letters instantly.",
+      "price": 7.99,
+      "period": "monthly",
+      "tag": "new",
+      "tagType": "new",
+      "img":"./src/assets/play.png",
+      "features": ["AI writing assistant", "Multiple formats", "Custom editing"]
+    },
+    {
+      "id": 6,
+      "name": "LinkedIn Profile Booster",
+      "description": "Optimize your LinkedIn profile for visibility.",
+      "price": 19,
+      "period": "one-time",
+      "tag": "best seller",
+      "tagType": "best seller",
+      "img":"./src/assets/products/portfolio.png",
+      "features": ["Profile review", "Keyword optimization", "Headline generator"]
+    },
+    {
+      "id": 7,
+      "name": "Interview Prep Kit",
+      "description": "Prepare for interviews with mock questions.",
+      "price": 14.99,
+      "period": "one-time",
+      "tag": "popular",
+      "tagType": "popular",
+      "img":"./src/assets/products/design-tool.png",
+      "features": ["Mock interviews", "Common Q&A", "Feedback tips"]
+    },
+    {
+      "id": 8,
+      "name": "Freelancer Starter Pack",
+      "description": "Tools for starting your freelancing career.",
+      "price": 12.99,
+      "period": "yearly",
+      "tag": "new",
+      "tagType": "new",
+      "img":"./src/assets/products/operation.png",
+      "features": ["Proposal templates", "Client tracker", "Invoice generator"]
+    },
+    {
+      "id": 9,
+      "name": "Career Coaching Plan",
+      "description": "Get expert career advice and guidance.",
+      "price": 49.99,
+      "period": "monthly",
+      "tag": "best seller",
+      "tagType": "best seller",
+      "img":"./src/assets/products/writing_2327400 1.png",
+      "features": ["1-on-1 sessions", "Career roadmap", "Skill assessment"]
+    },
+    {
+      "id": 10,
+      "name": "Skill Builder Courses",
+      "description": "Access premium courses to upgrade your skills.",
+      "price": 99,
+      "period": "yearly",
+      "tag": "popular",
+      "tagType": "popular",
+      "img":"./src/assets/products/social-media.png",
+      "features": ["Video lessons", "Certificates", "Project-based learning"]
+    },
+    {
+      "id": 11,
+      "name": "ATS Resume Checker",
+      "description": "Check if your resume passes ATS systems.",
+      "price": 5.99,
+      "period": "one-time",
+      "tag": "new",
+      "tagType": "new",
+      "img":"./src/assets/products/portfolio.png",
+      "features": ["ATS score", "Keyword suggestions", "Instant feedback"]
+    },
+    {
+      "id": 12,
+      "name": "Ultimate Career Bundle",
+      "description": "All-in-one package for job seekers.",
+      "price": 149,
+      "period": "one-time",
+      "tag": "best seller",
+      "tagType": "best seller",
+      "img":"./src/assets/products/operation.png",
+      "features": ["Resume builder", "Portfolio tools", "Interview prep", "Coaching access"]
+    }
+  ]
