@@ -1,6 +1,8 @@
 import React from "react";
 
-const Cart = () => {
+const Cart = ({isCart}) => {
+    console.log(isCart);
+
     return (
         <>
             
@@ -16,7 +18,7 @@ const Cart = () => {
                                 <div className="flex gap-1">
                                     <img className='w-10 h-10' src="./src/assets/user.png" alt="" />
                                     <div className="">
-                                        <h4 className='text-xl'>al pro</h4>
+                                        <h4 className='text-xl'>{isCart.name}</h4>
                                         <samp>$34</samp>
                                     </div>
                                 </div>

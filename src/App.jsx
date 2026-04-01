@@ -1,5 +1,4 @@
 
-
 import { Suspense } from 'react'
 import './App.css'
 import LowerBody from './components/lowerBody/lowerBody'
@@ -8,7 +7,7 @@ import UpperBody from './components/upperBody/upperBody'
 
 
 const fetchData = async () =>{
-  const res = await fetch("/public/data.json")
+  const res = await fetch("/data.json")
   return res.json();
 };
 
@@ -28,8 +27,9 @@ function App() {
 
 
     </>
-  )
-}
+  );
+  
+};
 
-export default App
+export default App;
 
