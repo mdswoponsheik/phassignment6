@@ -10,7 +10,7 @@ const Main = ({dataPromise, isCart, setIsCart}) => {
      
     return (
         <>
-            <div className=' bg-purple-50 p-10 text-black' >
+            <div className=' bg-purple-50  md:p-3 sm:p-10 text-black' >
             <div className=" h-70" >
                 <div className="text-center ">
                     <h2 className='text-4xl lg:text-5xl font-bold pt-10 text-black'>Premium Digital Tools</h2>
@@ -31,17 +31,19 @@ const Main = ({dataPromise, isCart, setIsCart}) => {
                           "bg-white text-blue-600"
                          } btn rounded-4xl `}>Cart({isCart.length})</button>
 
+                   </div>
                 </div>
-            </div>
 
-                         {isProducts === "products" ?  <Products datas={datas} setIsCart={setIsCart} isCart={isCart}></Products> : <Cart isCart={isCart} ></Cart>}
+                         {isProducts === "products" ?
+                          <Products datas={datas} setIsCart={setIsCart} isCart={isCart}></Products> :
+                          <Cart isCart={isCart} setIsCart={setIsCart} ></Cart>}
 
 
              
 
 
           
-            </div>
+             </div>
 
 
 

@@ -12,9 +12,9 @@ const LowerBody = () => {
                     <p className='p-3'>Start using premium digital tools in minutes, not hours.</p>
                 </div>
 
-                <div className="gap-2 grid grid-cols-1 lg:grid-cols-3 w-96 lg:w-4/5 m-auto">
+                <div className="gap-2 grid grid-cols-1 lg:grid-cols-3 w-85 lg:w-4/5 m-auto">
 
-                    <div className="card w-96  card-md shadow-sm">
+                    <div className="card w-85 sm:w-96  card-md shadow-sm">
                         <div className="flex justify-end p-5"><p className='w-9 h-9 bg-purple-600 font-bold text-2xl  text-white rounded-full flex justify-center items-center'>1</p></div>
                         <div className="flex justify-center">
                             <img className=' bg-purple-200 rounded-full p-3' src="./src/assets/user.png" alt="" />
@@ -25,7 +25,7 @@ const LowerBody = () => {
                         </div>
                     </div>
 
-                    <div className="card w-96  card-md shadow-sm">
+                    <div className="card w-85 sm:w-96  card-md shadow-sm">
                         <div className="flex justify-end p-5"><p className='w-9 h-9 bg-purple-600 font-bold text-2xl  text-white rounded-full flex justify-center items-center'>2</p></div>
                         <div className="flex justify-center">
                             <img className=' bg-purple-200 rounded-full p-3' src="./src/assets/package.png" alt="" />
@@ -36,7 +36,7 @@ const LowerBody = () => {
                         </div>
                     </div>
 
-                    <div className="card w-96  card-md shadow-sm">
+                    <div className="card w-85 sm:w-96 m-auto card-md shadow-sm">
                         <div className="flex justify-end p-5"><p className='w-9 h-9 bg-purple-600 font-bold text-2xl  text-white rounded-full flex justify-center items-center'>3</p></div>
                         <div className="flex justify-center">
                             <img className=' bg-purple-200 rounded-full p-3' src="./src/assets/rocket.png" alt="" />
@@ -65,11 +65,11 @@ const LowerBody = () => {
                     {/* 1 */}
                     <div>
                         <div className='bg-white text-black'>
-                            <div className="card bg-blue-100 h-100 w-66 shadow-sm bg">
+                            <div className="card bg-blue-100 h-100  w-66 shadow-sm bg">
                                 <div className="card-body">
 
 
-                                    <div className="space-y-1 ">
+                                    <div className="space-y-1  ">
                                         <h2 className="text-3xl font-bold">Starter</h2>
                                         <p className='text-gray-500'>Perfect for getting started</p>
                                         <span className="text-green-500 font-bold text-3xl">$0/month</span>
@@ -202,7 +202,7 @@ const LowerBody = () => {
             <div className="footer sm:footer-horizontal bg-base-200 text-base-content p-10" >
                 <div >
                     <div className="text-center ">
-                        <h2 className='text-4xl lg:text-5xl font-bold text-white'>Premium Digital Tools</h2>
+                        <h2 className='text-3xl lg:text-5xl font-bold text-white'>Premium Digital Tools</h2>
                         <p className='text-gray-500 py-6'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
                     </div>
 
@@ -268,7 +268,7 @@ const LowerBody = () => {
                     </div>
                 </nav>
             </div>
-            <footer className="footer bg-base-200  text-base-content border-base-300 border-t px-10 py-10">
+            <footer className="footer bg-base-200  text-base-content border-base-300 border-t p-10">
                 <aside className="w-10/10 flex justify-between ">
 
                     <p>

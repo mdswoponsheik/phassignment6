@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Cart = ({ isCart }) => {
-    console.log(isCart);
+const Cart = ({ isCart, setIsCart }) => {
+    const cartRemove = (cart) => {
+
+        const filterCart = isCart.filter(selectedCart => selectedCart.id !== cart.id);
+
+        setIsCart(filterCart);
+    };
+    const hendleAllRemove = () => {
+
+        setIsCart([]);
+    };
 
     return (
         <>
@@ -12,33 +21,43 @@ const Cart = ({ isCart }) => {
                         <div className="">
                             <h2 className="text-3xl font-bold">Your Cart</h2>
                         </div>
+                        {
+                            isCart.length === 0 ?
+                                <div className="bg-blue-50 p-5 border rounded-2xl">
+                                    <h2 className="text-xl sm:text-2xl flex justify-center ">There is no cart hear </h2>
+                                    <p className="text-center text-2xl sm:text-4xl"> Please add a cart</p>
+                                </div>
 
-                        {isCart.map((isCart) => {
-                            return <div className="">
-                                <div className="flex justify-between items-center bg-gray-200 rounded-xl p-2">
-                                    <div className="flex gap-1">
-                                        <img className='w-10 h-10' src="./src/assets/user.png" alt="" />
-                                        <div className="">
-                                            <h4 className='text-xl'>{isCart.name}</h4>
-                                            <samp>${isCart.price}</samp>
+                                :
+
+
+                                isCart.map((cart, id) => {
+                                    return <div key={id} className="">
+                                        <div className="flex justify-between items-center bg-gray-200 rounded-xl p-2">
+                                            <div className="flex gap-1">
+                                                <img className='w-7 h-7' src={cart.img} alt="" />
+                                                <div className="">
+                                                    <h4 className='text-xs sm:text-xl'>{cart.name}</h4>
+                                                    <samp>${cart.price}</samp>
+                                                </div>
+                                            </div>
+                                            <div className="">
+                                                <button onClick={() => cartRemove(cart)} className='btn btn-error '>remove</button>
+                                            </div>
+
                                         </div>
                                     </div>
-                                    <div className="">
-                                        <button className='btn btn-error'>remove</button>
-                                    </div>
 
-                                </div>
-                            </div>
-
-                        })}
+                                })}
                         <div className="flex justify-between bg-amber-50 px-5 rounded-2xl">
                             <p>Total</p>
-                            <samp className='text-xl'>$34</samp>
+                            <samp className='text-xl'>$ {isCart.reduce((sum, item) => sum + item.price, 0)}
+                            </samp>
                         </div>
 
 
                         <div className="mt-6">
-                            <button className="btn btn-primary btn-block m-auto rounded-4xl">Buy Now</button>
+                            <button onClick={() => hendleAllRemove()} className="btn btn-primary btn-block m-auto rounded-4xl">Pro</button>
                         </div>
                     </div>
 

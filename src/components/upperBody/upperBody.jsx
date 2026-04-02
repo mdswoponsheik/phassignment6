@@ -8,7 +8,7 @@ const UpperBody = ({isCart}) => {
         <div className='navbar  shadow-sm rounded-4xl px-5 w-1/1 lg:w-9/10 m-auto'>
           <div className="navbar-start">
             <div className="dropdown">
-              <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+              <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden p-1">
                 <svg xmlns="http://www.w3.org/2000/svg" className="text-black h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
               </div>
               <ul
@@ -23,10 +23,10 @@ const UpperBody = ({isCart}) => {
                 <li><a>FAQ</a></li>
               </ul>
             </div>
-            <a className="btn btn-ghost font-bold text-blue-400 text-2xl md:text-3xl">DigiTools</a>
+            <a className="btn btn-ghost font-bold text-blue-400 p-0 text-2xl md:text-3xl">DigiTools</a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal text-black px-1">
               <li><a>Products</a></li>
               <li>
                 <a>Features</a>
@@ -38,7 +38,7 @@ const UpperBody = ({isCart}) => {
           </div>
           <div className="gap-1.5 navbar-end">
             <img src="./src/assets/products/shopping-cart.png" alt="zcart" />
-            <span className="text-orange-500 rounded-full flex   absolute bottom-6 right-43 text-xl font-bold">{isCart.length}</span>
+            <span className="bg-orange-500 text-white rounded-full flex justify-center items-center w-4 h-4 absolute bottom-8 right-41 text-xs  font-bold">{isCart.length}</span>
             <button className=' text-black'>Login</button>
             <button className='btn rounded-4xl bg-blue-500 p-2'>get Started </button>
           </div>
@@ -52,7 +52,7 @@ const UpperBody = ({isCart}) => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="./src/assets/banner.png"
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="max-w-s sm:max-w-sm rounded-lg shadow-2xl"
           />
           <div className="h-100 sm:h-70 p-3">
             <div className='text-center lg:text-left'>
