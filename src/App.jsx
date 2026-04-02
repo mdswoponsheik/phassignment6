@@ -4,6 +4,7 @@ import './App.css'
 import LowerBody from './components/lowerBody/lowerBody'
 import Main from './components/main/main'
 import UpperBody from './components/upperBody/upperBody'
+import { ToastContainer } from 'react-toastify'
 
 
 const fetchData = async () =>{
@@ -24,6 +25,7 @@ function App() {
       <Suspense fallback = {<span className="loading loading-dots loading-xl"></span>}>
       <Main dataPromise={dataPromise} isCart={isCart} setIsCart={setIsCart}></Main>
       </Suspense>
+      <ToastContainer />
       <LowerBody></LowerBody>
       
 

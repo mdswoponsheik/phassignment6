@@ -1,14 +1,15 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
 const Cart = ({ isCart, setIsCart }) => {
     const cartRemove = (cart) => {
 
         const filterCart = isCart.filter(selectedCart => selectedCart.id !== cart.id);
-
+        toast.success(`${cart.name} is Removed`)
         setIsCart(filterCart);
     };
     const hendleAllRemove = () => {
-
+        toast.success('ALL Cart is checkout')
         setIsCart([]);
     };
 
@@ -57,7 +58,7 @@ const Cart = ({ isCart, setIsCart }) => {
 
 
                         <div className="mt-6">
-                            <button onClick={() => hendleAllRemove()} className="btn btn-primary btn-block m-auto rounded-4xl">Pro</button>
+                            <button onClick={() => hendleAllRemove()} className="btn btn-primary btn-block m-auto rounded-4xl">{isCart.length === 0 ? <p></p>: <h1>Clears all cart</h1>}</button>
                         </div>
                     </div>
 

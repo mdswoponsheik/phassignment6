@@ -1,12 +1,16 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
 const Card = ({ data, setIsCart, isCart }) => {
 
     const [buy, setBuy] = useState("false");
 
     const buyProduct = () => {
+        toast.success(`${data.name} is selected`)
         setIsCart([...isCart, data])
+
     };
+
     return (
         <>
             <div className="card w-80 sm:w-95 bg-purple-200 shadow-sm  ">
