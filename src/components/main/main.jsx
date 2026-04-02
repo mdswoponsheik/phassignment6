@@ -2,11 +2,11 @@ import React, { use, useState } from "react";
 import Cart from "./cart";
 import Products from "./products";
 
-const Main = ({dataPromise}) => {
+const Main = ({dataPromise, isCart, setIsCart}) => {
     // console.log(dataPromise);
     const  datas = use(dataPromise);
     const [isProducts, setIsProducts] =useState("products");
-    const [isCart, setIsCart] =useState([]);
+    
      
     return (
         <>
@@ -29,7 +29,7 @@ const Main = ({dataPromise}) => {
                         ${isProducts === "cart" ?
                          "bg-blue-500 text-white" :
                           "bg-white text-blue-600"
-                         } btn rounded-4xl `}>Cart</button>
+                         } btn rounded-4xl `}>Cart({isCart.length})</button>
 
                 </div>
             </div>

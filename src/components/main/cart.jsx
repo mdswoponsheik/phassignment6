@@ -1,11 +1,10 @@
 import React from "react";
 
-const Cart = ({isCart}) => {
+const Cart = ({ isCart }) => {
     console.log(isCart);
 
     return (
         <>
-            
             <div>
                 <div className='bg-white text-black pb-10'>
 
@@ -13,21 +12,25 @@ const Cart = ({isCart}) => {
                         <div className="">
                             <h2 className="text-3xl font-bold">Your Cart</h2>
                         </div>
-                        <div className="">
-                            <div className="flex justify-between items-center bg-gray-200 rounded-xl p-2">
-                                <div className="flex gap-1">
-                                    <img className='w-10 h-10' src="./src/assets/user.png" alt="" />
-                                    <div className="">
-                                        <h4 className='text-xl'>{isCart.name}</h4>
-                                        <samp>$34</samp>
-                                    </div>
-                                </div>
-                                <div className="">
-                                    <button className='btn btn-error'>remove</button>
-                                </div>
 
+                        {isCart.map((isCart) => {
+                            return <div className="">
+                                <div className="flex justify-between items-center bg-gray-200 rounded-xl p-2">
+                                    <div className="flex gap-1">
+                                        <img className='w-10 h-10' src="./src/assets/user.png" alt="" />
+                                        <div className="">
+                                            <h4 className='text-xl'>{isCart.name}</h4>
+                                            <samp>${isCart.price}</samp>
+                                        </div>
+                                    </div>
+                                    <div className="">
+                                        <button className='btn btn-error'>remove</button>
+                                    </div>
+
+                                </div>
                             </div>
-                        </div>
+
+                        })}
                         <div className="flex justify-between bg-amber-50 px-5 rounded-2xl">
                             <p>Total</p>
                             <samp className='text-xl'>$34</samp>
@@ -41,6 +44,9 @@ const Cart = ({isCart}) => {
 
                 </div>
             </div>
+
+
+
 
         </>
     );

@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const UpperBody = () => {
+const UpperBody = ({isCart}) => {
   return (
     <>
       <div className=" bg-white">
@@ -38,8 +38,9 @@ const UpperBody = () => {
           </div>
           <div className="gap-1.5 navbar-end">
             <img src="./src/assets/products/shopping-cart.png" alt="zcart" />
+            <span className="text-orange-500 rounded-full flex   absolute bottom-6 right-43 text-xl font-bold">{isCart.length}</span>
             <button className=' text-black'>Login</button>
-            <button className='btn rounded-4xl bg-blue-500 p-2'>get Started</button>
+            <button className='btn rounded-4xl bg-blue-500 p-2'>get Started </button>
           </div>
         </div>
       </div>
