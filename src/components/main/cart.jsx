@@ -58,7 +58,7 @@ const Cart = ({ isCart, setIsCart }) => {
 
 
                         <div className="mt-6">
-                            <button onClick={() => hendleAllRemove()} className="btn btn-primary btn-block m-auto rounded-4xl">{isCart.length === 0 ? <p></p>: <h1>Clears all cart</h1>}</button>
+                            <button onClick={() => hendleAllRemove()} className="btn btn-primary btn-block m-auto rounded-4xl">{isCart.length === 0 ? <p>ALL Cart is checkouted</p>: <h1>ALL Cart is checkout</h1>}</button>
                         </div>
                     </div>
 
