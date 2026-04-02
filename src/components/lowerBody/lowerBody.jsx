@@ -17,7 +17,7 @@ const LowerBody = () => {
                     <div className="card w-85 sm:w-96  card-md shadow-sm">
                         <div className="flex justify-end p-5"><p className='w-9 h-9 bg-purple-600 font-bold text-2xl  text-white rounded-full flex justify-center items-center'>1</p></div>
                         <div className="flex justify-center">
-                            <img className=' bg-purple-200 rounded-full p-3' src="./src/assets/user.png" alt="" />
+                            <img className=' bg-purple-200 rounded-full p-3' src="https://i.ibb.co.com/35n29J5K/user.png" alt="" />
                         </div>
                         <div className="card-body text-center">
                             <h2 className="text-3xl">Create Account</h2>
@@ -25,10 +25,12 @@ const LowerBody = () => {
                         </div>
                     </div>
 
+
+
                     <div className="card w-85 sm:w-96  card-md shadow-sm">
                         <div className="flex justify-end p-5"><p className='w-9 h-9 bg-purple-600 font-bold text-2xl  text-white rounded-full flex justify-center items-center'>2</p></div>
                         <div className="flex justify-center">
-                            <img className=' bg-purple-200 rounded-full p-3' src="./src/assets/package.png" alt="" />
+                            <img className=' bg-purple-200 rounded-full p-3' src="https://i.ibb.co.com/sdMQjZ3h/package.png" alt="" />
                         </div>
                         <div className="card-body text-center">
                             <h2 className="text-3xl">Choose Products</h2>
@@ -39,7 +41,7 @@ const LowerBody = () => {
                     <div className="card w-85 sm:w-96 m-auto card-md shadow-sm">
                         <div className="flex justify-end p-5"><p className='w-9 h-9 bg-purple-600 font-bold text-2xl  text-white rounded-full flex justify-center items-center'>3</p></div>
                         <div className="flex justify-center">
-                            <img className=' bg-purple-200 rounded-full p-3' src="./src/assets/rocket.png" alt="" />
+                            <img className=' bg-purple-200 rounded-full p-3' src="https://i.ibb.co.com/ZPNMdbf/rocket.png" alt="" />
                         </div>
                         <div className="card-body text-center">
                             <h2 className="text-3xl">Start Creating</h2>

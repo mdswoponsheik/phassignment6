@@ -37,7 +37,7 @@ const UpperBody = ({isCart}) => {
             </ul>
           </div>
           <div className="gap-1.5 navbar-end">
-            <img src="./src/assets/products/shopping-cart.png" alt="zcart" />
+            <img src="https://i.ibb.co.com/dJz6tbq8/shopping-cart.png" alt="zcart" />
             <span className="bg-orange-500 text-white rounded-full flex justify-center items-center w-4 h-4 absolute bottom-8 right-41 text-xs  font-bold">{isCart.length}</span>
             <button className=' text-black'>Login</button>
             <button className='btn rounded-4xl bg-blue-500 p-2'>get Started </button>
@@ -46,12 +46,14 @@ const UpperBody = ({isCart}) => {
       </div>
 
 
+
+
       {/* bannar section */}
 
       <div className="hero bg-white min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="./src/assets/banner.png"
+            src="https://i.ibb.co.com/W46NG60T/banner.png"
             className="max-w-s sm:max-w-sm rounded-lg shadow-2xl"
           />
           <div className="h-100 sm:h-70 p-3">
@@ -64,7 +66,7 @@ const UpperBody = ({isCart}) => {
                 Explore Products
               </p>
               <button className="btn mr-3 rounded-4xl btn-primary">Explore Products</button>
-              <button className="btn rounded-4xl btn-outline btn-accent"><img src="./src/assets/Play.png" alt="" />Watch Demo</button>
+              <button className="btn rounded-4xl btn-outline btn-accent"><img src="https://i.ibb.co.com/3Yfz4YQD/Play.png" alt="" />Watch Demo</button>
             </div>
           </div>
 

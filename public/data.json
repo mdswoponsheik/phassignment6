@@ -7,9 +7,11 @@
       "period": "one-time",
       "tag": "new",
       "tagType": "new",
-      "img":"./src/assets/products/design-tool.png",
+      "img":"https://i.ibb.co.com/JWnPtJbz/portfolio.png",
       "features": ["Basic templates", "Download PDF", "Easy editor"]
     },
+
+
     {
       "id": 2,
       "name": "Pro Resume Builder",
@@ -18,7 +20,7 @@
       "period": "monthly",
       "tag": "popular",
       "tagType": "popular",
-      "img":"./src/assets/products/operation.png",
+      "img":"https://i.ibb.co.com/ZPNMdbf/rocket.png",
       "features": ["100+ templates", "ATS optimization", "Export to PDF"]
     },
     {
@@ -29,7 +31,7 @@
       "period": "one-time",
       "tag": "best seller",
       "tagType": "best seller",
-      "img":"./src/assets/user.png",
+      "img":"https://i.ibb.co.com/Qjk6rtnK/operation.png",
       "features": ["Custom domain support", "Responsive design", "SEO tools"]
     },
     {
@@ -40,7 +42,7 @@
       "period": "monthly",
       "tag": "popular",
       "tagType": "popular",
-      "img":"./src/assets/products/social-media.png",
+      "img":"https://i.ibb.co.com/ks4zJxMv/design-tool.png",
       "features": ["Application tracking", "Interview reminders", "Analytics dashboard"]
     },
     {
@@ -51,7 +53,7 @@
       "period": "monthly",
       "tag": "new",
       "tagType": "new",
-      "img":"./src/assets/play.png",
+      "img":"https://i.ibb.co.com/JM9cnkR/writing-2327400-1.png",
       "features": ["AI writing assistant", "Multiple formats", "Custom editing"]
     },
     {
@@ -62,7 +64,7 @@
       "period": "one-time",
       "tag": "best seller",
       "tagType": "best seller",
-      "img":"./src/assets/products/portfolio.png",
+      "img":"https://i.ibb.co.com/ynzXMYZL/social-media.png",
       "features": ["Profile review", "Keyword optimization", "Headline generator"]
     },
     {
@@ -73,7 +75,7 @@
       "period": "one-time",
       "tag": "popular",
       "tagType": "popular",
-      "img":"./src/assets/products/design-tool.png",
+      "img":"https://i.ibb.co.com/JM9cnkR/writing-2327400-1.png",
       "features": ["Mock interviews", "Common Q&A", "Feedback tips"]
     },
     {
@@ -84,7 +86,7 @@
       "period": "yearly",
       "tag": "new",
       "tagType": "new",
-      "img":"./src/assets/products/operation.png",
+      "img":"https://i.ibb.co.com/ynzXMYZL/social-media.png",
       "features": ["Proposal templates", "Client tracker", "Invoice generator"]
     },
     {
@@ -95,7 +97,7 @@
       "period": "monthly",
       "tag": "best seller",
       "tagType": "best seller",
-      "img":"./src/assets/products/writing_2327400 1.png",
+      "img":"https://i.ibb.co.com/JWnPtJbz/portfolio.png",
       "features": ["1-on-1 sessions", "Career roadmap", "Skill assessment"]
     },
     {
@@ -106,7 +108,7 @@
       "period": "yearly",
       "tag": "popular",
       "tagType": "popular",
-      "img":"./src/assets/products/social-media.png",
+      "img":"https://i.ibb.co.com/3Yfz4YQD/Play.png",
       "features": ["Video lessons", "Certificates", "Project-based learning"]
     },
     {
@@ -117,7 +119,7 @@
       "period": "one-time",
       "tag": "new",
       "tagType": "new",
-      "img":"./src/assets/products/portfolio.png",
+      "img":"https://i.ibb.co.com/ks4zJxMv/design-tool.png",
       "features": ["ATS score", "Keyword suggestions", "Instant feedback"]
     },
     {
@@ -128,7 +130,7 @@
       "period": "one-time",
       "tag": "best seller",
       "tagType": "best seller",
-      "img":"./src/assets/products/operation.png",
+      "img":"https://i.ibb.co.com/Qjk6rtnK/operation.png",
       "features": ["Resume builder", "Portfolio tools", "Interview prep", "Coaching access"]
     }
   ]
